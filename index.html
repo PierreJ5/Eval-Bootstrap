@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<!-- CSS Bootstrap -->
+    <link href="package/bootstrap.min.css" rel="stylesheet">
+<!-- CDN Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+<!-- Style Css -->
+    <link rel="stylesheet" href="style.css">
+<!-- Fontweb -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Assossiation Fictive</title>
+</head>
+
+<body>
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-1 px-4" href="index.html">MAF</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav fs-5">
+                    <li class="nav-item px-2">
+                        <a class="nav-link active rounded-pill text-decoration-underline" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link disabled rounded-pill" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link rounded-pill" href="event.html">Événements</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Titre-->
+    <h1 class="text-center mt-4 mb-4">Mon Assossiation Fictive</h1>
+
+    <!--Contenu 1 -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-11 col-lg-5 cadre mx-lg-2 mb-3">
+                <h3 class="text-center mt-2">Qui sommes nous?</h3>  
+                <p class="px-3 fs-5">Lorem ipsum <b>dolor sit amet</b>, consectetur adipiscing elit. Aenean leo sapien, 
+                sollicitudin eu ultricies non, tincidunt sed diam.<br> Sed pharetra non nisi consequat 
+                imperdiet. Suspendisse in consequat nibh. Nunc scelerisque, mauris a ornare porta, nisi 
+                ex feugiat libero, a accumsan nisl ligula sit amet libero.<br> Nulla sed dui lacus. Ut elit 
+                orci, tempus eget pretium sit amet, convallis a enim.
+                </p>
+            </div>
+
+            <!--Contenu 2 -->
+            <div class="col-11 col-lg-5 cadre mx-lg-2 mb-3">
+                <h3 class="text-center mt-2">Nos activités</h3>
+                <p class="px-3 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean leo sapien, 
+                sollicitudin eu ultricies non, tincidunt sed diam.
+                </p>
+                <ul class="mx-4 fs-5">
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                </ul>
+                <p class="px-3 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="container mb-4">
+        <div class="row justify-content-center">
+            <div class="col-11 col-lg-6 text-center">
+                <h3>Voyez en plus</h3>
+                <p class="fs-5"> Voici un exemple de nos journées types.</p>
+                <div id="carouselExampleControls" class="cadrexl carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Ressources/img001.jpg" class="d-block w-100" alt="image001">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Ressources/img002.jpg" class="d-block w-100" alt="Image002">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Ressources/img003.jpg" class="d-block w-100" alt="Image003">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="text-center">
+        <span>Suivez-nous!</span>
+        <div class="d-flex justify-content-evenly justify-content-lg-center">
+            <a href="#">
+                <i class="bi bi-facebook" style="font-size: 2rem;"></i>
+            </a>
+            <a href="#" class="mx-lg-5">
+                <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+            </a>
+            <a href="#">
+                <i class="bi bi-snapchat" style="font-size: 2rem;"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+<!-- Jquery -->
+<script src="package/jquery-3.6.0.min.js"></script>
+<!-- javascript -->
+<script src="package/bootstrap.min.js"></script>
+</html>
